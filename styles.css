@@ -115,7 +115,18 @@ hr{
     background-color: var(--offwhite);
 }
 
+/**footer**/
 
+.footer{
+    padding: 2rem 1rem;
+    background-color: var(--primary-color);
+    border-top-right-radius: 1.2rem ;
+    text-align: center;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
 
  
 
