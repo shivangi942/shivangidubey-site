@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    
     <title>My component library</title>
 </head>
 <body>
@@ -22,16 +24,16 @@
     <h2>@containers</h2>
 
     <h3>@fluid container</h3>
-    <div>It will cover complete width or basically end to end of page.</div>
+    <div class="container-fluid">It will cover complete width or basically end to end of page.</div>
     <h3>@center container</h3>
-    <div>This will go to a specified width.</div>
+    <div class="container-center container-fluid">This will go to a specified width.</div>
 
     <hr>
 
     <h2>@links</h2>
 
-    <a href="/">Primary link</a>
-    <a href="/">Secondary link</a>
+    <a class="links link-primary" href="/">Primary link</a>
+    <a class="link-secondary links" href="/">Secondary link</a>
 
     <hr>
 
