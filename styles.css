@@ -36,3 +36,12 @@ hr{
     color: var(--primary-color);
     border: var(--primary-color) solid 1.8px;
 }
+
+.list-bullet-less{
+    list-style: none;
+}
+
+.list-inline{
+    display: inline;
+    padding: 0rem 1rem;
+}
