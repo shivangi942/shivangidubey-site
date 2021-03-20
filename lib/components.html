@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles.css" rel="stylesheet">
+    
+    <title>My component library</title>
+</head>
+<body>
+    <h1>Shivangi's Component Library</h1>
+    <p>This is the component library that i'll be using to create my portfolio.</p>
+
+    <hr>
+
+    <h2>@typography</h2>
+    <h1>This is the biggest heading</h1>
+    <h2>I'll be writing the headings with this </h2>
+    <p>This is the para tag. This is it's font size.</p>
+    <small>This is the smaller font comparatively.</small>
+
+    <hr>
+
+    <h2>@containers</h2>
+
+    <h3>@fluid container</h3>
+    <div class="container-fluid">It will cover complete width or basically end to end of page.</div>
+    <h3>@center container</h3>
+    <div class="container-center container-fluid">This will go to a specified width.</div>
+
+    <hr>
+
+    <h2>@links</h2>
+
+    <a class="links link-primary" href="/">Primary link</a>
+    <a class="link-secondary links" href="/">Secondary link</a>
+
+    <hr>
+
+    <h2>@lists</h2>
+    
+    <h3>unordered lists</h3>
+    <div>this is unordered list without bullets.</div>
+ 
+    <ul class="list-bullet-less">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+
+    <h3>inline lists</h3>
+    <div>we'll create list in form of columns instead of rows.</div>
+    <ul>
+        <li class="list-inline">one</li>
+        <li class="list-inline">two</li>
+        <li class="list-inline">three</li>
+    </ul>
+
+    <h3>reverse ordered lists</h3>
+    <div>This list has reverse numbering</div>
+    <ol reversed>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol> 
+
+    <hr>
+
+    <h2>@nav</h2>
+
+    <p>this is navigation bar</p>
+    <nav class="navigation">
+        
+
+    <div class="navigation-brand">Mybrand</div>
+
+    <ul class="list-bullet-less">
+        <li class="list-inline" >
+            <a class="links link-active" href="/">home</a>
+        </li>
+        <li class="list-inline">
+            <a class="links" href="/">projects</a>
+        </li>
+        <li class="list-inline">
+            <a class="links" href="/">blogs</a>
+        </li>
+    </ul>
+    </nav>
+    
+
+    <hr>
+
+    <h2>@header</h2>
+
+    <header class="header">
+        <h1 class="header-heading">heading in <span style="color: var(--primary-color);">header</span></h1>
+        <img class="header-img" src="/images/portfolio.svg"/>
+    </header>
+
+    <hr>
+
+    <h2>@section</h2>
+    <section class="section">
+        <div class="container-center container-fluid">
+            <h1>normal section</h3>
+            <p>this will have a white bg.</p>
+        </div>
+       
+    </section>
+    
+    <section class="section section-offwhite">
+        <div class="container-center container-fluid">
+            <h1>offwhite section</h3>
+            <p>this will have offwhite bg. I mean if this text would have been a few sentences longer then you could see my point.</p></div>
+        
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+
+    <footer class="footer">
+        <h3 style="font-weight: bold;">header inside footer</h3>
+        <ul class="list-bullet-less">
+            <li class="list-inline">positionone</li>
+            <li class="list-inline">positiontwo</li>
+            <li class="list-inline">positionthree</li>
+        </ul>
+    </footer>
+
+</body>
+</html>

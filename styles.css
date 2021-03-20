@@ -95,7 +95,7 @@ hr{
 }
 
 .header .header-img{
-    max-width: 500px;
+    max-width: 400px;
     margin: auto;
     display: block;
     padding: 1rem;
@@ -122,13 +122,15 @@ hr{
     background-color: var(--primary-color);
     border-top-right-radius: 1.2rem ;
     text-align: center;
+    color: white;
 }
 
 .footer ul{
     padding-inline-start: 0px;
+
 }
 
- 
+
 
 
 

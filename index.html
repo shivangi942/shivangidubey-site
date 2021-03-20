@@ -2,134 +2,87 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shivangi dubey | home</title>
     <link href="styles.css" rel="stylesheet">
-    
-    <title>My component library</title>
 </head>
 <body>
-    <h1>Shivangi's Component Library</h1>
-    <p>This is the component library that i'll be using to create my portfolio.</p>
-
-    <hr>
-
-    <h2>@typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>I'll be writing the headings with this </h2>
-    <p>This is the para tag. This is it's font size.</p>
-    <small>This is the smaller font comparatively.</small>
-
-    <hr>
-
-    <h2>@containers</h2>
-
-    <h3>@fluid container</h3>
-    <div class="container-fluid">It will cover complete width or basically end to end of page.</div>
-    <h3>@center container</h3>
-    <div class="container-center container-fluid">This will go to a specified width.</div>
-
-    <hr>
-
-    <h2>@links</h2>
-
-    <a class="links link-primary" href="/">Primary link</a>
-    <a class="link-secondary links" href="/">Secondary link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
     
-    <h3>unordered lists</h3>
-    <div>this is unordered list without bullets.</div>
- 
-    <ul class="list-bullet-less">
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
-    </ul>
-
-    <h3>inline lists</h3>
-    <div>we'll create list in form of columns instead of rows.</div>
-    <ul>
-        <li class="list-inline">one</li>
-        <li class="list-inline">two</li>
-        <li class="list-inline">three</li>
-    </ul>
-
-    <h3>reverse ordered lists</h3>
-    <div>This list has reverse numbering</div>
-    <ol reversed>
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
-    </ol> 
-
-    <hr>
-
-    <h2>@nav</h2>
-
-    <p>this is navigation bar</p>
     <nav class="navigation">
         
 
-    <div class="navigation-brand">Mybrand</div>
+    <div class="navigation-brand">Shivangi Dubey</div>
 
     <ul class="list-bullet-less">
         <li class="list-inline" >
             <a class="links link-active" href="/">home</a>
         </li>
         <li class="list-inline">
-            <a class="links" href="/">projects</a>
+            <a class="links" href="projects.html">projects</a>
         </li>
         <li class="list-inline">
-            <a class="links" href="/">blogs</a>
+            <a class="links" href="blogs.html">blogs</a>
         </li>
     </ul>
     </nav>
-    
-
-    <hr>
-
-    <h2>@header</h2>
 
     <header class="header">
-        <h1 class="header-heading">heading in <span style="color: var(--primary-color);">header</span></h1>
-        <img class="header-img" src="images/portfolio.svg"/>
+        <h1 class="header-heading">Hello! I'm a <span style="color: var(--primary-color);">Web Developer</span></h1>
+        <img class="header-img" src="/images/portfolio.svg"/>
     </header>
 
-    <hr>
-
-    <h2>@section</h2>
-    <section class="section">
-        <div class="container-center container-fluid">
-            <h1>normal section</h3>
-            <p>this will have a white bg.</p>
-        </div>
-       
-    </section>
     <section class="section section-offwhite">
         <div class="container-center container-fluid">
-            <h1>offwhite section</h3>
-            <p>this will have offwhite bg. I mean if this text would have been a few sentences longer then you could see my point.</p></div>
-        
+            <h1>projects</h1>
+            <p>I have made some projects and will love if you'll have a look at them. I have tried implementing all that I have learnt in these projects. These have taken a lot of time and efforts.</p>
+            <a class="links link-primary" href="projects.html">See projects</a>
+        </div>
     </section>
 
-    <hr>
+    <section class="section">
+        <div class="container-center container-fluid">
+            <h1>technologies</h3>
+            <p>I know <strong>Javascript, HTML, CSS, git and Kotlin.</strong> I also know a little bit about <strong>flutter</strong> I am also interested in learning about Data Analytics, Machine learning and artificial intelligence. </p>
+        </div>
+    </section>
 
-    <h2>@footer</h2>
+    <section class="section section-offwhite">
+        <div class="container-center container-fluid">
+            <h1>blogs</h1>
+            <p>I write blogs sometimes. They related to technology and other stuff as well like <strong> how to make yourself a brand</strong>. I hope my blogs can help you in some way or maybe will be entertaining for you though I don't write anything much entertaining. Anyway, I hope you like them.</p>
+            <a class="link-secondary links" href="blogs.html">Read blogs</a>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container-center container-fluid">
+            <h1>books</h3>
+            <p>I absolutely love reading books. Reading books is my favourite thing to do apart from sleeping jk ;). Yeah but honestly ever want to give me a gift then just give me a nice classic book, I'll appreciate if it will have a author's note too :). So this contains list of some of my fav books over the years. Have a look and suggest me some good ones if you know. My fav genres are <strong>thriller, mystery, drama, historical fiction, war and magic.</strong>If you know a book that is great but doesn't fall in these genres then also recommend it :).</p>
+            <a class="link-secondary links" href="books.html">See the books</a>
+        </div>
+    </section>
+
 
     <footer class="footer">
-        <h3 style="font-weight: bold;">header inside footer</h3>
+        <h3 style="font-weight: bold;">Connect with me</h3>
         <ul class="list-bullet-less">
-            <li class="list-inline">positionone</li>
-            <li class="list-inline">positiontwo</li>
-            <li class="list-inline">positionthree</li>
+            <li class="list-inline"><a class="links" style="color: white;" href="https://github.com/shivangi942">Github</a></li>
+            <li class="list-inline"><a class="links" style="color: white;" href="https://www.linkedin.com/in/shivangi-dubey-51224978/">Linkedin</a></li>
+            <li class="list-inline"><a class="links" style="color: white;" href="https://twitter.com/shivi942000">Twitter</a></li>
         </ul>
     </footer>
 
+
+
+
+
+
+
+
+
 </body>
 </html>
-
 
 
 
